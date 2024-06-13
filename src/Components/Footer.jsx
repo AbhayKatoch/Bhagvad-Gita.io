@@ -15,7 +15,7 @@ function Footer() {
           <Link to="https://github.com/AbhayKatoch/Bhagvad-Gita.io" className='hover:text-orange-500'>
             Github
           </Link>
-          <a className='hover:text-orange-500' href="mailto:abhaykatoch210@gmailcom">Contact me</a>
+          <a className='hover:text-orange-500' href="mailto:abhaykatoch210@gmail.com">Contact me</a>
 
         </div>
 
