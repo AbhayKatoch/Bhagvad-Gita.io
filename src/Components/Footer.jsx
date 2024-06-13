@@ -12,7 +12,7 @@ function Footer() {
           <Link to="https://rapidapi.com/bhagavad-gita-bhagavad-gita-default/api/bhagavad-gita3" className='hover:text-orange-500'>
             API
           </Link>
-          <Link className='hover:text-orange-500'>
+          <Link to="https://github.com/AbhayKatoch/Bhagvad-Gita.io" className='hover:text-orange-500'>
             Github
           </Link>
           <a className='hover:text-orange-500' href="mailto:abhaykatoch210@gmailcom">Contact me</a>
