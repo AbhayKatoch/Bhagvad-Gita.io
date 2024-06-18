@@ -21,7 +21,25 @@ function Verses1({chap, slok}) {
         navigate(`/${data.chapter}/verse/${data.verse}`)
     }
 
-    
+    if(!data.siva?.et){
+        return(
+            <>
+                    <div class="card animate-pulse hover:shadow-xl">
+  <div class="h-4 bg-gray-200 rounded mb-2"></div>
+  <div class="h-6 bg-gray-200 rounded w-3/4 mb-2"></div>
+  <div class="h-4 bg-gray-200 rounded w-1/4 mb-2"></div>
+  <div class="h-6 bg-gray-200 rounded w-1/4"></div>
+</div>
+                
+        
+
+
+
+
+                
+
+            </>
+        )}
   return (
     <>
         <div onClick={navigation} className="card hover:shadow-xl">
