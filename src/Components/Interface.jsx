@@ -1,19 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import About from "./About";
 import Chapters from "./All Chapters/Chapters";
 import { Link } from "react-router-dom";
-import Chapter1 from "./All Chapters/Chapter1";
 
 function Interface() {
   return (
     <>
-      <div className=" py-12 px-4 sm:px-6 lg:px-8 ">
-        <div className=" flex flex-col  min-w-fit  items-center ">
-          <div className="relative w-full sm:w-3/4 lg:2/3">
+      <div className="py-12 px-4 sm:px-6 lg:px-2">
+        <div className="flex flex-col items-center">
+          <div className="relative w-full sm:w-3/4 lg:w-2/3">
             <img
-              src=" download.jfif "
+              src="download.jfif"
               alt=""
-              className=" w-full rounded-2xl "
+              className="w-full rounded-2xl"
+              loading="lazy" 
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center">
               <h2 className="font-serif font-bold text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl w-full text-white">
@@ -31,7 +31,6 @@ function Interface() {
               </Link>
             </div>
           </div>
-          <div class="p-6"></div>
         </div>
       </div>
       <div id="about" className="mb-12">
