@@ -6,7 +6,7 @@ function About() {
             <div className='flex flex-col gap-y-6 w-full px-16 lg:text-left text-center py-16 lg:px-32  '>
 
                 <h2 className=' text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-orange-500'>
-                    About Bhagvad Gita
+                    About Bhagavad Gita
                 </h2>
                 <p className='text-black  text-base lg:text-lg'>
                 Bhagavad Gita, also known as the Gita - "The Song of The Lord" is a practical guide to one's life that guides one to re-organise their life, achieve inner peace and approach the Supreme Lord (the Ultimate Reality). It is a 700-verse text in Sanskrit which comprises chapters 23 through 40 in the Bhishma-Parva section of the Mahabharata.
