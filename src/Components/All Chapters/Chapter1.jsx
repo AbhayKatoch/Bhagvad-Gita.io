@@ -21,7 +21,7 @@ function Chapter1() {
   };
 
   useEffect(() => {
-    fetch(`https://bhagavadgitaapi.in/chapter/${chap}/`)
+    fetch(`https://vedicscriptures.github.io/chapter/${chap}/`)
       .then((response) => response.json())
       .then((data) => {
         setData(data);

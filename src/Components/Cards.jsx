@@ -7,7 +7,7 @@ function Cards({ chap }) {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`https://bhagavadgitaapi.in/chapter/${chap}/`)
+    fetch(`https://vedicscriptures.github.io/chapter/${chap}/`)
       .then((response) => response.json())
       .then((data) => {
         console.log(data);

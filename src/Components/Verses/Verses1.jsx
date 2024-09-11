@@ -11,7 +11,7 @@ function Verses1({chap, slok}) {
 
     const [data,setData]=useState("")
     useEffect(()=>{
-        fetch(`https://bhagavadgitaapi.in/slok/${chap}/${slok}/`)
+        fetch(`https://vedicscriptures.github.io/slok/${chap}/${slok}/`)
         .then(response=>response.json())
         .then(data=>{
             setData(data);

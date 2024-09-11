@@ -9,21 +9,21 @@ function Sloks() {
   const [prevTotalVerses, setPrevTotalVerses] = useState(0);
 
   useEffect(() => {
-    fetch(`https://bhagavadgitaapi.in/slok/${chap}/${slokid}/`)
+    fetch(`https://vedicscriptures.github.io/slok/${chap}/${slokid}/`)
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
         setData(data);
       });
 
-    fetch(`https://bhagavadgitaapi.in/chapter/${chap}/`)
+    fetch(`https://vedicscriptures.github.io/chapter/${chap}/`)
       .then((response) => response.json())
       .then((data) => {
         setTotalVerses(data.verses_count);
       });
 
     if (parseInt(chap) > 1) {
-      fetch(`https://bhagavadgitaapi.in/chapter/${parseInt(chap) - 1}/`)
+      fetch(`https://vedicscriptures.github.io/chapter/${parseInt(chap) - 1}/`)
         .then((response) => response.json())
         .then((data) => {
           setPrevTotalVerses(data.verses_count);
